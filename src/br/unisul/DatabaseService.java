@@ -8,7 +8,7 @@ public class DatabaseService {
 		
 		try {
 			Class.forName("org.postgresql.Driver");
-			conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/tutorial", "miguel", "mramos02");
+			conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/tutorial", "miguel", "senha");
 		} catch(Exception e) {
 			System.err.println(e);
 		}
